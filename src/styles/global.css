@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+@theme {
+    --font-gugi: 'Gugi', cursive;
+
+
+
+    /*Colors*/
+    --color-background: #111020; /* Azul oscuro */
+    --color-primary: #401b61; /* Purple */
+    --color-secondary: #6984e0; /* Light Púrpura */
+    --color-tertiary: #e3126c; /* Fancy pink */
+    --color-accent: #facc15; /* Amarillo */
+}
