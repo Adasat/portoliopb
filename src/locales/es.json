@@ -1,0 +1,11 @@
+{
+    "welcome": "Bienvenido",
+    "about": [
+        "Soy un Desarrollador Full-Stack apasionado por crear aplicaciones web intuitivas y de alto rendimiento. Mi experiencia abarca tanto el desarrollo frontend como backend, lo que me permite diseñar soluciones que sean escalables y fáciles de usar.",
+        "En el backend, trabajo con bases de datos relacionales (MySQL) y no relacionales (MongoDB), diseñando estructuras de datos eficientes y asegurando un flujo de información óptimo. En el frontend, desarrollo principalmente con React y Vue, aprovechando frameworks modernos para construir interfaces dinámicas y mantenibles. Aunque mi portafolio personal está desarrollado con Astro, siempre estoy explorando nuevas tecnologías para mejorar mi flujo de trabajo y optimizar el rendimiento.",
+        "He desarrollado aplicaciones web para estaciones de carga de vehículos eléctricos, mapas de geolocalización interactivos y plataformas de gestión de eventos, además de haber liderado rediseños y mantenimiento de sitios web educativos y haber creado soluciones personalizadas en WordPress para sectores como la industria farmacéutica y el arte. Cada proyecto ha enriquecido mi comprensión de la usabilidad, el rendimiento y la conexión entre la tecnología y el mundo real.",
+        "Más allá del desarrollo, tengo un gran interés por el UX/UI design—aunque no es mi enfoque principal, siempre priorizo la usabilidad, accesibilidad e interacciones bien pensadas en mi trabajo.",
+        "Cuando no estoy programando, suelo estar jugando al fútbol, disfrutando de videojuegos o juegos de mesa, o leyendo. Me encanta resolver problemas, ya sea depurando un código complicado o ideando la mejor estrategia en un juego."
+    ]
+    
+}

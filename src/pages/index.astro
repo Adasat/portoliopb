@@ -1,5 +1,7 @@
 ---
 import "../styles/global.css";
+
+
 import Layout from '../layouts/Layout.astro';
 import Devices from "../layouts/Devices.vue";
 import SnapScroll from "../components/SnapScroll.vue";
@@ -10,7 +12,8 @@ import SnapScroll from "../components/SnapScroll.vue";
 
 <Layout>
 	<!-- Mostrar solo en pantallas grandes -->
-	<Devices class="hidden sm:flex" />
+	<Devices client:load />
+
 	
 	<!-- Mostrar solo en móviles -->
 	<SnapScroll class="sm:hidden" />

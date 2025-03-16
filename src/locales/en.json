@@ -1,0 +1,10 @@
+{
+    "welcome": "Welcome to my portfolio!",
+    "about": [
+        "I’m a Full-Stack Developer passionate about building intuitive, high-performance web applications. My expertise spans both frontend and backend development, allowing me to craft solutions that are as scalable as they are user-friendly.",
+        "On the backend, I work with relational (MySQL) and non-relational (MongoDB) databases, designing efficient data structures and ensuring smooth data flow. On the frontend, I primarily develop with React and Vue, leveraging modern frameworks to create dynamic and maintainable user interfaces. While my personal portfolio is built with Astro, I’m always exploring new technologies to refine my workflow and optimize performance.",
+        "I’ve developed web apps for EV charging stations, interactive geolocation maps, and event management platforms, as well as led redesigns and maintenance for educational websites and built custom WordPress solutions for industries like pharmaceuticals and the arts. Each project has deepened my understanding of usability, performance, and how to bridge technology with real-world impact.",
+        "Beyond development, I have a deep appreciation for UX/UI design—while it’s not my main focus, I always prioritize usability, accessibility, and thoughtful interactions in my work.",
+        "When I’m not coding, I’m usually playing football, gaming (both video games and board games), or reading. I thrive on problem-solving, whether it’s debugging a tricky piece of code or figuring out the best strategy in a game."
+    ]
+}
