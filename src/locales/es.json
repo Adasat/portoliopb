@@ -1,5 +1,6 @@
 {
     "welcome": "Bienvenido",
+    "description": "SOBRE MI",
     "about": [
         "Soy un Desarrollador Full-Stack apasionado por crear aplicaciones web intuitivas y de alto rendimiento. Mi experiencia abarca tanto el desarrollo frontend como backend, lo que me permite diseñar soluciones que sean escalables y fáciles de usar.",
         "En el backend, trabajo con bases de datos relacionales (MySQL) y no relacionales (MongoDB), diseñando estructuras de datos eficientes y asegurando un flujo de información óptimo. En el frontend, desarrollo principalmente con React y Vue, aprovechando frameworks modernos para construir interfaces dinámicas y mantenibles. Aunque mi portafolio personal está desarrollado con Astro, siempre estoy explorando nuevas tecnologías para mejorar mi flujo de trabajo y optimizar el rendimiento.",

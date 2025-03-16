@@ -5,7 +5,7 @@
       <section id="hero" class="h-screen flex items-center justify-center snap-start">
         <Hero />
       </section>
-      <section id="slide2" class="h-screen flex items-center justify-center snap-start">
+      <section id="slide2" class="h-screen flex items-start justify-center snap-start bg-background">
         <About />
       </section>
       <section id="slide3" class="h-screen flex items-center justify-center bg-green-500 snap-start">

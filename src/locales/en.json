@@ -1,5 +1,6 @@
 {
     "welcome": "Welcome to my portfolio!",
+    "description": "ABOUT ME",
     "about": [
         "I’m a Full-Stack Developer passionate about building intuitive, high-performance web applications. My expertise spans both frontend and backend development, allowing me to craft solutions that are as scalable as they are user-friendly.",
         "On the backend, I work with relational (MySQL) and non-relational (MongoDB) databases, designing efficient data structures and ensuring smooth data flow. On the frontend, I primarily develop with React and Vue, leveraging modern frameworks to create dynamic and maintainable user interfaces. While my personal portfolio is built with Astro, I’m always exploring new technologies to refine my workflow and optimize performance.",
