@@ -3,8 +3,8 @@ import "../styles/global.css";
 
 
 import Layout from '../layouts/Layout.astro';
-import Devices from "../layouts/Devices.vue";
-import SnapScroll from "../components/SnapScroll.vue";
+import BigDevices from "../layouts/BigDevices.vue";
+import MobileSnap from "../layouts/MobileSnap.vue";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
@@ -12,9 +12,9 @@ import SnapScroll from "../components/SnapScroll.vue";
 
 <Layout>
 	<!-- Mostrar solo en pantallas grandes -->
-	<Devices client:load />
+	<BigDevices client:load />
 
 	
 	<!-- Mostrar solo en móviles -->
-	<SnapScroll class="sm:hidden" />
+	<MobileSnap class="sm:hidden" />
 </Layout>

@@ -1,12 +1,84 @@
 {
-    "welcome": "Bienvenido",
-    "description": "SOBRE MI",
-    "about": [
-        "Soy un Desarrollador Full-Stack apasionado por crear aplicaciones web intuitivas y de alto rendimiento. Mi experiencia abarca tanto el desarrollo frontend como backend, lo que me permite diseñar soluciones que sean escalables y fáciles de usar.",
-        "En el backend, trabajo con bases de datos relacionales (MySQL) y no relacionales (MongoDB), diseñando estructuras de datos eficientes y asegurando un flujo de información óptimo. En el frontend, desarrollo principalmente con React y Vue, aprovechando frameworks modernos para construir interfaces dinámicas y mantenibles. Aunque mi portafolio personal está desarrollado con Astro, siempre estoy explorando nuevas tecnologías para mejorar mi flujo de trabajo y optimizar el rendimiento.",
-        "He desarrollado aplicaciones web para estaciones de carga de vehículos eléctricos, mapas de geolocalización interactivos y plataformas de gestión de eventos, además de haber liderado rediseños y mantenimiento de sitios web educativos y haber creado soluciones personalizadas en WordPress para sectores como la industria farmacéutica y el arte. Cada proyecto ha enriquecido mi comprensión de la usabilidad, el rendimiento y la conexión entre la tecnología y el mundo real.",
-        "Más allá del desarrollo, tengo un gran interés por el UX/UI design—aunque no es mi enfoque principal, siempre priorizo la usabilidad, accesibilidad e interacciones bien pensadas en mi trabajo.",
-        "Cuando no estoy programando, suelo estar jugando al fútbol, disfrutando de videojuegos o juegos de mesa, o leyendo. Me encanta resolver problemas, ya sea depurando un código complicado o ideando la mejor estrategia en un juego."
-    ]
-    
+  "welcome": "Bienvenido",
+  "description": "SOBRE MÍ",
+  "about": [
+    "Soy un <strong>Desarrollador Full-Stack</strong> apasionado por crear <strong>aplicaciones web intuitivas y de alto rendimiento</strong>. Mi experiencia abarca tanto el <strong>frontend</strong> como el <strong>backend</strong>, lo que me permite diseñar soluciones que sean <strong>escalables</strong> y fáciles de usar.",
+    "En el <strong>backend</strong>, trabajo con <strong>bases de datos relacionales (MySQL) y no relacionales (MongoDB)</strong>, diseñando estructuras de datos eficientes y asegurando un flujo de información óptimo. En el <strong>frontend</strong>, desarrollo principalmente con <strong>React</strong> y <strong>Vue</strong>, aprovechando frameworks modernos para construir <strong>interfaces dinámicas y mantenibles</strong>. Aunque mi portafolio personal está desarrollado con <strong>Astro</strong>, siempre estoy explorando nuevas tecnologías para mejorar mi flujo de trabajo y optimizar el <strong>rendimiento</strong>.",
+    "He desarrollado <strong>aplicaciones web para estaciones de carga de vehículos eléctricos, mapas de geolocalización interactivos y plataformas de gestión de eventos</strong>, además de haber liderado <strong>rediseños y mantenimiento de sitios web educativos</strong> y haber creado <strong>soluciones personalizadas en WordPress</strong> para sectores como la <strong>industria farmacéutica</strong> y el <strong>arte</strong>. Cada proyecto ha enriquecido mi comprensión de la <strong>usabilidad, el rendimiento</strong> y la conexión entre <strong>tecnología y el mundo real</strong>.",
+    "Más allá del desarrollo, tengo un gran interés por el <strong>UX/UI design</strong>—aunque no es mi enfoque principal, siempre priorizo la <strong>usabilidad, accesibilidad e interacciones bien pensadas</strong> en mi trabajo.",
+    "Cuando no estoy programando, suelo estar jugando al fútbol, disfrutando de videojuegos o juegos de mesa, o leyendo. Me encanta <strong>resolver problemas</strong>, ya sea <strong>depurando</strong> un código complicado o ideando la mejor estrategia en un juego."
+  ],
+  "projectsTitle": "PROYECTOS",
+  "projects": [
+    {
+      "title": "ElectroTaro",
+      "description": "Aplicación web para dispositivos móviles para cargar sus vehículos en cargadores eléctricos de carga ultrarrápida. Gestiona los cobros, el inicio y final de la carga, y un registro de cada sesión con su impacto en el medio ambiente.",
+      "technologies": [
+        "React",
+        "TailwindCSS",
+        "Stripe",
+        "WebSocket",
+        "NodeJS",
+        "MongoDB",
+        "Nodemailer"
+      ],
+      "year": 2024,
+      "result": "Facilitó la carga eficiente de vehículos eléctricos con pago digital y registro de consumo.",
+      "link": ""
+    },
+    {
+      "title": "Mapa de Talento de Wise Canarias",
+      "description": "Mapa interactivo para la visualización del talento canario femenino en las áreas STEAM, destacando tanto a quienes trabajan en Canarias como a aquellas que han emigrado.",
+      "technologies": [
+        "Leaflet",
+        "Vue3",
+        "MongoDB",
+        "NodeJS",
+        "Pinia",
+        "TailwindCSS",
+        "OpenStreetMap"
+      ],
+      "year": 2024,
+      "result": "Aumentó la visibilidad del talento femenino canario en ciencia y tecnología.",
+      "link": ""
+    },
+    {
+      "title": "Evente",
+      "description": "Plataforma web para la publicación y gestión de eventos en las Islas Canarias, conectando empresarios que buscan publicidad con clientes interesados en conocer qué ocurre en la región. Incluye geolocalización.",
+      "technologies": [
+        "Nuxt",
+        "MongoDB",
+        "Stripe",
+        "Google Cloud",
+        "Geolocalización"
+      ],
+      "year": "2024-2025",
+      "result": "Facilitó la promoción de eventos y la conexión entre organizadores y asistentes.",
+      "link": ""
+    },
+    {
+      "title": "Nuevo diseño e integración de la web de Reboot Academy",
+      "description": "Actualización, programación y rediseño del sitio web de Reboot Academy, alineado con el diseño armónico del equipo de UX/UI.",
+      "technologies": ["NextJS", "TailwindCSS"],
+      "year": 2025,
+      "result": "Mejoró la experiencia de usuario y la coherencia visual de la plataforma.",
+      "link": ""
+    },
+    {
+      "title": "Dimefarma de Canarias - Página Web",
+      "description": "Proyecto de digitalización para una prestigiosa distribuidora de fármacos en las Islas Canarias. Buscaban una herramienta fácil de mantener sin necesidad de conocimientos previos de programación.",
+      "technologies": ["WordPress"],
+      "year": 2025,
+      "result": "Permitió a la empresa expandir su presencia digital con una solución accesible.",
+      "link": ""
+    },
+    {
+      "title": "Expresafest",
+      "description": "Festival de cortometrajes que busca visibilizar y concienciar sobre temas sociales. Requería una web fácil de gestionar y atractiva para los festivales organizados.",
+      "technologies": ["WordPress"],
+      "year": 2025,
+      "result": "Proporcionó una plataforma accesible para la gestión y promoción del festival.",
+      "link": ""
+    }
+  ]
 }

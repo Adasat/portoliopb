@@ -5,7 +5,7 @@
 @import "tailwindcss/utilities";
 
 @theme {
-    --font-gugi: 'Gugi', cursive;
+    --font-inter: 'Inter', sans-serif;
     --font-quantico: 'Quantico', sans-serif;
     --font-textMe: 'Text Me One', sans-serif;
 
@@ -15,6 +15,12 @@
     --color-background: #111020; /* Azul oscuro */
     --color-primary: #401b61; /* Purple */
     --color-secondary: #6984e0; /* Light Púrpura */
-    --color-tertiary: #e3126c; /* Fancy pink */
+    --color-terciary: #e3126c; /* Fancy pink */
     --color-accent: #facc15; /* Amarillo */
+    --color-green1: #00ff88; /* Verde */
+    --color-green2: #00cc66; /* Verde */
+    --color-green3: #008844; /* Verde */
+    --color-customGray: #D9D9D9; /* Gris */
+    --color-customGray2: #A6A6A6; /* Gris oscuro*/
+    --color-customGray3: #666666; /* Gris oscuro */
 }

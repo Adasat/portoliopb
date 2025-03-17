@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-col gap-2 h-screen w-full justify-center items-center bg-background">
-        <p class="text-5xl md:text-8xl font-gugi text-gradient">Pedro Bonilla</p>
-        <p class="text-4xl md:text-6xl font-gugi text-gradient">Sofware Developer</p>
+    <div class="flex flex-col gap-2 h-screen md:h-fit md:py-32 md:mt-56 w-full justify-center items-center bg-background">
+        <p class="text-5xl md:text-8xl font-quantico text-gradient">Pedro Bonilla</p>
+        <p class="text-4xl md:text-6xl font-quantico text-gradient">Sofware Developer</p>
     </div>
 </template>
 
@@ -27,7 +27,7 @@
 .text-gradient {
     position: relative;
     display: inline-block;
-    background-image: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    background-image: linear-gradient(90deg, var(--color-green3), var(--color-green2));
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -47,7 +47,7 @@
     height: 100%;
     
     /* 🔥 Brillo más ligero y sin scroll */
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 20%, transparent 80%);
+    background: radial-gradient(circle, var(--color-green1) 20%, transparent 80%);
     
     mix-blend-mode: overlay;
     transform: translateX(-100%);

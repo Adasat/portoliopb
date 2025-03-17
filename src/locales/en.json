@@ -1,11 +1,84 @@
 {
-    "welcome": "Welcome to my portfolio!",
-    "description": "ABOUT ME",
-    "about": [
-        "I’m a Full-Stack Developer passionate about building intuitive, high-performance web applications. My expertise spans both frontend and backend development, allowing me to craft solutions that are as scalable as they are user-friendly.",
-        "On the backend, I work with relational (MySQL) and non-relational (MongoDB) databases, designing efficient data structures and ensuring smooth data flow. On the frontend, I primarily develop with React and Vue, leveraging modern frameworks to create dynamic and maintainable user interfaces. While my personal portfolio is built with Astro, I’m always exploring new technologies to refine my workflow and optimize performance.",
-        "I’ve developed web apps for EV charging stations, interactive geolocation maps, and event management platforms, as well as led redesigns and maintenance for educational websites and built custom WordPress solutions for industries like pharmaceuticals and the arts. Each project has deepened my understanding of usability, performance, and how to bridge technology with real-world impact.",
-        "Beyond development, I have a deep appreciation for UX/UI design—while it’s not my main focus, I always prioritize usability, accessibility, and thoughtful interactions in my work.",
-        "When I’m not coding, I’m usually playing football, gaming (both video games and board games), or reading. I thrive on problem-solving, whether it’s debugging a tricky piece of code or figuring out the best strategy in a game."
-    ]
+  "welcome": "Welcome to my portfolio!",
+  "description": "ABOUT ME",
+  "about": [
+    "I’m a <strong>Full-Stack Developer</strong> passionate about building <strong>intuitive, high-performance web applications</strong>. My expertise spans both <strong>frontend</strong> and <strong>backend</strong> development, allowing me to craft solutions that are as <strong>scalable</strong> as they are <strong>user-friendly</strong>.",
+    "On the <strong>backend</strong>, I work with <strong>relational (MySQL) and non-relational (MongoDB) databases</strong>, designing efficient data structures and ensuring smooth data flow. On the <strong>frontend</strong>, I primarily develop with <strong>React</strong> and <strong>Vue</strong>, leveraging modern frameworks to create <strong>dynamic and maintainable user interfaces</strong>. While my personal portfolio is built with <strong>Astro</strong>, I’m always exploring new technologies to refine my workflow and optimize <strong>performance</strong>.",
+    "I’ve developed <strong>web apps for EV charging stations, interactive geolocation maps, and event management platforms</strong>, as well as led <strong>redesigns and maintenance for educational websites</strong> and built <strong>custom WordPress solutions</strong> for industries like <strong>pharmaceuticals</strong> and <strong>the arts</strong>. Each project has deepened my understanding of <strong>usability, performance</strong>, and how to bridge <strong>technology with real-world impact</strong>.",
+    "Beyond development, I have a deep appreciation for <strong>UX/UI design</strong>—while it’s not my main focus, I always prioritize <strong>usability, accessibility, and thoughtful interactions</strong> in my work.",
+    "When I’m not coding, I’m usually playing football, gaming (both video games and board games), or reading. I thrive on <strong>problem-solving</strong>, whether it’s <strong>debugging</strong> a tricky piece of code or figuring out the best strategy in a game."
+  ],
+  "projectsTitle": "PROJECTS",
+  "projects": [
+    {
+      "title": "ElectroTaro",
+      "description": "A mobile web application for charging electric vehicles at ultra-fast charging stations. Manages payments, session start and end, and records each charging session with its environmental impact.",
+      "technologies": [
+        "React",
+        "TailwindCSS",
+        "Stripe",
+        "WebSocket",
+        "NodeJS",
+        "MongoDB",
+        "Nodemailer"
+      ],
+      "year": 2024,
+      "result": "Enabled efficient EV charging with digital payments and consumption tracking.",
+      "link": ""
+    },
+    {
+      "title": "Wise Canarias Talent Map",
+      "description": "Interactive map highlighting female Canary Islands talent in STEAM fields, showcasing both local professionals and those who have emigrated.",
+      "technologies": [
+        "Leaflet",
+        "Vue3",
+        "MongoDB",
+        "NodeJS",
+        "Pinia",
+        "TailwindCSS",
+        "OpenStreetMap"
+      ],
+      "year": 2024,
+      "result": "Increased visibility of female Canary Islands talent in science and technology.",
+      "link": ""
+    },
+    {
+      "title": "Evente",
+      "description": "A web platform for publishing and managing events in the Canary Islands, connecting business owners seeking publicity with customers looking for events. Includes geolocation features.",
+      "technologies": [
+        "Nuxt",
+        "MongoDB",
+        "Stripe",
+        "Google Cloud",
+        "Geolocation"
+      ],
+      "year": "2024-2025",
+      "result": "Simplified event promotion and improved connections between organizers and attendees.",
+      "link": ""
+    },
+    {
+      "title": "New Design and Integration of Reboot Academy Website",
+      "description": "Redesign, development, and integration of the Reboot Academy website, aligned with the UX/UI team’s design vision.",
+      "technologies": ["NextJS", "TailwindCSS"],
+      "year": 2025,
+      "result": "Enhanced user experience and visual consistency of the platform.",
+      "link": ""
+    },
+    {
+      "title": "Dimefarma de Canarias - Website",
+      "description": "Digitalization project for a prestigious pharmaceutical distributor in the Canary Islands. The goal was to provide an easy-to-maintain tool without requiring programming knowledge.",
+      "technologies": ["WordPress"],
+      "year": 2025,
+      "result": "Enabled the company to expand its digital presence with an accessible solution.",
+      "link": ""
+    },
+    {
+      "title": "Expresafest",
+      "description": "A short film festival focused on raising awareness of social issues. Needed a user-friendly and attractive website for festival organization.",
+      "technologies": ["WordPress"],
+      "year": 2025,
+      "result": "Provided an accessible platform for festival management and promotion.",
+      "link": ""
+    }
+  ]
 }
