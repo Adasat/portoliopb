@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   integrations: [
-    vue({ appEntrypoint: '/src/_app.ts' }),
+    vue({ appEntrypoint: '/src/_app.ts', ssr:false }),
    
   ],
   vite: {

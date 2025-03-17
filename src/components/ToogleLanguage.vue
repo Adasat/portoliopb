@@ -19,7 +19,6 @@
 
 <script setup>
 
-import { i18n } from "../i18n"; 
 import { useI18n } from "vue-i18n";
 // Accedemos a la traducción y al idioma actual
 const { t, locale } = useI18n({ useScope: "global" });

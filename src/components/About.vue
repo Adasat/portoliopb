@@ -29,6 +29,7 @@ const { t, locale } = useI18n({ useScope: "global" });
 
 // Acceder correctamente al array desde `i18n.global.messages`
 const about = computed(() => {
+  if (!i18n) return []; // Evita errores en SSR
   const messages = unref(i18n.global.messages); // 🔥 Accedemos correctamente al objeto reactivo
 
   return messages[locale.value]?.about || []; // Extraemos el array correctamente
