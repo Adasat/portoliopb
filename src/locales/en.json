@@ -11,7 +11,7 @@
   "projectsTitle": "PROJECTS",
   "projects": [
     {
-      "title": "ElectroTaro",
+      "title": "Taro Electrolinera",
       "description": "A mobile web application for charging electric vehicles at ultra-fast charging stations. Manages payments, session start and end, and records each charging session with its environmental impact.",
       "technologies": [
         "React",
@@ -24,7 +24,8 @@
       ],
       "year": 2024,
       "result": "Enabled efficient EV charging with digital payments and consumption tracking.",
-      "link": ""
+      "link": "https://www.electrotaro.com/",
+      "image": "/projects/taroImage.png"
     },
     {
       "title": "Wise Canarias Talent Map",
@@ -40,7 +41,9 @@
       ],
       "year": 2024,
       "result": "Increased visibility of female Canary Islands talent in science and technology.",
-      "link": ""
+      "link": "https://talentmap.wisecanarias.com/",
+      "image": "/projects/talentImage.png"
+
     },
     {
       "title": "Evente",
@@ -54,7 +57,9 @@
       ],
       "year": "2024-2025",
       "result": "Simplified event promotion and improved connections between organizers and attendees.",
-      "link": ""
+      "link": "https://evente.netlify.app/",
+      "image": "/projects/eventeImage.png"
+
     },
     {
       "title": "New Design and Integration of Reboot Academy Website",
@@ -62,7 +67,9 @@
       "technologies": ["NextJS", "TailwindCSS"],
       "year": 2025,
       "result": "Enhanced user experience and visual consistency of the platform.",
-      "link": ""
+      "link": "https://reboot.academy/",
+      "image": "/projects/rebootImage.png"
+
     },
     {
       "title": "Dimefarma de Canarias - Website",
@@ -70,7 +77,9 @@
       "technologies": ["WordPress"],
       "year": 2025,
       "result": "Enabled the company to expand its digital presence with an accessible solution.",
-      "link": ""
+      "link": "https://dimefarma.org/",
+      "image": "/projects/dimefarmaImage.png"
+
     },
     {
       "title": "Expresafest",
@@ -78,7 +87,9 @@
       "technologies": ["WordPress"],
       "year": 2025,
       "result": "Provided an accessible platform for festival management and promotion.",
-      "link": ""
+      "link": "https://expresafest.com/",
+      "image": "/projects/expresafestImage.png"
+
     }
   ]
 }

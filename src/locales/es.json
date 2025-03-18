@@ -24,7 +24,9 @@
       ],
       "year": 2024,
       "result": "Facilitó la carga eficiente de vehículos eléctricos con pago digital y registro de consumo.",
-      "link": ""
+      "link": "https://www.electrotaro.com/",
+      "image": "/projects/taroImage.png"
+
     },
     {
       "title": "Mapa de Talento de Wise Canarias",
@@ -40,7 +42,9 @@
       ],
       "year": 2024,
       "result": "Aumentó la visibilidad del talento femenino canario en ciencia y tecnología.",
-      "link": ""
+      "link": "https://talentmap.wisecanarias.com/",
+      "image": "/projects/talentImage.png"
+
     },
     {
       "title": "Evente",
@@ -54,7 +58,9 @@
       ],
       "year": "2024-2025",
       "result": "Facilitó la promoción de eventos y la conexión entre organizadores y asistentes.",
-      "link": ""
+      "link": "https://evente.netlify.app/",
+      "image": "/projects/eventeImage.png"
+
     },
     {
       "title": "Nuevo diseño e integración de la web de Reboot Academy",
@@ -62,7 +68,9 @@
       "technologies": ["NextJS", "TailwindCSS"],
       "year": 2025,
       "result": "Mejoró la experiencia de usuario y la coherencia visual de la plataforma.",
-      "link": ""
+      "link": "https://reboot.academy/",
+      "image": "/projects/rebootImage.png"
+
     },
     {
       "title": "Dimefarma de Canarias - Página Web",
@@ -70,7 +78,9 @@
       "technologies": ["WordPress"],
       "year": 2025,
       "result": "Permitió a la empresa expandir su presencia digital con una solución accesible.",
-      "link": ""
+      "link": "https://dimefarma.org/",
+      "image": "/projects/dimefarmaImage.png"
+
     },
     {
       "title": "Expresafest",
@@ -78,7 +88,9 @@
       "technologies": ["WordPress"],
       "year": 2025,
       "result": "Proporcionó una plataforma accesible para la gestión y promoción del festival.",
-      "link": ""
+      "link": "https://expresafest.com/",
+      "image": "/projects/expresafestImage.png"
+
     }
   ]
 }

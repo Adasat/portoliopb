@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-4 px-8 py-12 md:py-24">
+  <div class="flex flex-col gap-4 px-8 py-6 md:py-24">
     <h2 class="text-3xl md:text-5xl font-extralight font-quantico text-white">
       {{ t("description") }}
     </h2>

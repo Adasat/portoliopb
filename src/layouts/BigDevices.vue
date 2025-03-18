@@ -14,6 +14,7 @@
     <div class="flex w-full flex-col gap-4 pl-20 px-20 lg:pl-32 lg:px-32 xl:pl-52 xl:px-52">
       <Hero />
       <About />
+      
       <ProjectList />
     </div>
   </div>
@@ -25,4 +26,6 @@ import About from "../components/About.vue";
 import SocialMediaGroup from "../components/SocialMediaGroup.vue";
 import ToogleLanguage from "../components/ToogleLanguage.vue";
 import ProjectList from "../components/Projects/ProjectList.vue";
+
+
 </script>

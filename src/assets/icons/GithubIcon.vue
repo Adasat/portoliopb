@@ -10,7 +10,7 @@
         @mouseleave="isHovered = false"
       >
         <mask id="lineMdGithubLoop0" width="32" height="32" x="0" y="0">
-          <g fill="#fff">
+          <g fill="">
             <ellipse cx="9.5" cy="9" rx="1.5" ry="1" />
             <ellipse cx="14.5" cy="9" rx="1.5" ry="1" />
           </g>
@@ -39,7 +39,7 @@
           height="4"
           x="8"
           y="11"
-          fill="currentColor"
+          fill=""
           mask="url(#lineMdGithubLoop0)"
         >
           <animate attributeName="y" dur="10s" keyTimes="0;0.45;0.46;0.54;0.55;1" repeatCount="indefinite" values="11;11;7;7;11;11" />

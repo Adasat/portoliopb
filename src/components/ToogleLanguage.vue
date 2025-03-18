@@ -1,16 +1,16 @@
 <template>
-  <div class="mb-4">
+  <div class="mb-4 font-quantico">
     <button
       v-if="locale === 'es'"
       @click="changeLang('en')"
-      class="text-green3 hover:text-green1 text-xl px-3 py-1 rounded m-2 cursor-pointer"
+      class="text-green3 hover:text-green1 text-2xl px-3 py-1 rounded m-2 cursor-pointer"
     >
       EN
     </button>
     <button
       v-else
       @click="changeLang('es')"
-      class="text-green3 hover:text-green1 text-xl px-3 py-1 rounded m-2 cursor-pointer"
+      class="text-green3 hover:text-green1 text-2xl px-3 py-1 rounded m-2 cursor-pointer"
     >
       ES
     </button>

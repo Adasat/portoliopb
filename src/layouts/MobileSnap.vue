@@ -5,18 +5,18 @@
       <section id="hero" class="h-screen flex items-center justify-center snap-start">
         <Hero />
       </section>
-      <section id="slide2" class="pt-20 flex items-start justify-center snap-start ">
+      <section id="slide2" class="pt-10 flex items-start justify-center snap-start ">
         <About />
       </section>
-      <section id="slide3" class="pt-20 flex items-center justify-center snap-start">
+      <section id="slide3" class="pt-10 flex items-center justify-center snap-start">
       <ProjectList />
       </section>
     </main>
 
-    <footer class="w-full flex justify-between bg-background text-white text-center p-2 shadow-lg fixed bottom-0 left-0">
+    <footer class="w-full flex justify-between items-center bg-background p-2 shadow-lg fixed bottom-0 left-0">
       <img src="/Logo.png" alt="Logo" width="60" height="60" />
-      <ToogleLanguage/>
       <SocialMediaGroup/>
+      <ToogleLanguage/>
 
     </footer>
   </div>
