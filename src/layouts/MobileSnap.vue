@@ -8,7 +8,7 @@
       <section id="slide2" class="pt-10 flex items-start justify-center snap-start ">
         <About />
       </section>
-      <section id="slide3" class="pt-10 flex items-center justify-center snap-start">
+      <section id="slide3" class="py-10 flex items-center justify-center snap-start">
       <ProjectList />
       </section>
     </main>

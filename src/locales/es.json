@@ -25,7 +25,9 @@
       "year": 2024,
       "result": "Facilitó la carga eficiente de vehículos eléctricos con pago digital y registro de consumo.",
       "link": "https://www.electrotaro.com/",
-      "image": "/projects/taroImage.png"
+      "image": "/projects/taroImage.png",
+      "gradientFrom": "#00D29E",
+      "gradientTo": "rgb(0 56 47)"
 
     },
     {
@@ -43,7 +45,9 @@
       "year": 2024,
       "result": "Aumentó la visibilidad del talento femenino canario en ciencia y tecnología.",
       "link": "https://talentmap.wisecanarias.com/",
-      "image": "/projects/talentImage.png"
+      "image": "/projects/talentImage.png",
+      "gradientFrom": "#881bf5",
+      "gradientTo": "#17e4ce"
 
     },
     {
@@ -59,7 +63,9 @@
       "year": "2024-2025",
       "result": "Facilitó la promoción de eventos y la conexión entre organizadores y asistentes.",
       "link": "https://evente.netlify.app/",
-      "image": "/projects/eventeImage.png"
+      "image": "/projects/eventeImage.png",
+      "gradientFrom": "#f15a24",
+      "gradientTo": "#fbb03b"
 
     },
     {
@@ -69,7 +75,9 @@
       "year": 2025,
       "result": "Mejoró la experiencia de usuario y la coherencia visual de la plataforma.",
       "link": "https://reboot.academy/",
-      "image": "/projects/rebootImage.png"
+      "image": "/projects/rebootImage.png",
+      "gradientFrom": "#36E0D6",
+      "gradientTo": "#36E0D6"
 
     },
     {
@@ -79,7 +87,9 @@
       "year": 2025,
       "result": "Permitió a la empresa expandir su presencia digital con una solución accesible.",
       "link": "https://dimefarma.org/",
-      "image": "/projects/dimefarmaImage.png"
+      "image": "/projects/dimefarmaImage.png",
+      "gradientFrom": "#3AA74E",
+      "gradientTo": "#E20F21"
 
     },
     {
@@ -89,7 +99,9 @@
       "year": 2025,
       "result": "Proporcionó una plataforma accesible para la gestión y promoción del festival.",
       "link": "https://expresafest.com/",
-      "image": "/projects/expresafestImage.png"
+      "image": "/projects/expresafestImage.png",
+      "gradientFrom": "rgb(151, 120, 209)",
+      "gradientTo": "rgb(51, 167, 181)"
 
     }
   ]

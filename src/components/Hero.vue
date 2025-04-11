@@ -1,11 +1,15 @@
 <template>
-    <div class="flex flex-col gap-2 h-screen md:h-fit md:py-32 md:mt-56 w-full justify-center items-center bg-background">
+    <div 
+    class="flex flex-col gap-2 h-screen md:h-fit md:py-32 md:mt-56 w-full justify-center items-center bg-background overflow-hidden" 
+    :class="{'border-2 border-primary rounded-md': store.dev}">
         <p class="text-5xl md:text-8xl font-quantico text-gradient">Pedro Bonilla</p>
         <p class="text-4xl md:text-6xl font-quantico text-gradient">Sofware Developer</p>
     </div>
 </template>
 
 <script setup>
+import { useWebStore } from '../stores/web';
+const store = useWebStore()
 
 </script>
 
