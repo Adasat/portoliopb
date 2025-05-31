@@ -9,7 +9,7 @@
   
   <script setup>
   import { computed, unref } from "vue";
-  import { i18n } from "../../i18n";
+  import { i18n } from "../../../i18n";
   import { useI18n } from "vue-i18n";
   import ProjectCard from "./ProjectCard.vue";
   

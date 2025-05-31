@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@import "tailwindcss";
-@import "tailwindcss/utilities";
-
-@theme {
+:root {
     --font-inter: 'Inter', sans-serif;
     --font-quantico: 'Quantico', sans-serif;
     --font-textMe: 'Text Me One', sans-serif;
 
 
 
-    /*Colors*/
+    /*Colors- VUE*/
     --color-background: #111020; /* Azul oscuro */
     --color-primary: #401b61; /* Purple */
     --color-secondary: #6984e0; /* Light Púrpura */
@@ -23,4 +22,16 @@
     --color-customGray: #D9D9D9; /* Gris */
     --color-customGray2: #A6A6A6; /* Gris oscuro*/
     --color-customGray3: #666666; /* Gris oscuro */
+
+    /*Colors- REACT*/
+    --color-background-react: #E3DAD1; /*  Blanco Roto */
+    --color-primary-react: #d85c5a; /* Red */
+    --color-secondary-react: #4a4a4a; 
+    --color-terciary-react: #8f8f8f; 
+    --color-accent-react: #c1a24e; 
+}
+
+
+.margin-react{
+    @apply px-8 sm:px-12 md:px-16
 }

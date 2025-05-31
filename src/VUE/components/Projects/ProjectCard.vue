@@ -28,8 +28,6 @@ const props = defineProps({
   project: Object
 });
 
-console.log(props.project);
-
 const hoverGradientStyle = computed(() => ({
   'backgroundImage': `linear-gradient(to right, ${props.project.gradientFrom || '#67e8f9'}, ${props.project.gradientTo || '#34d399'})`,
   'backgroundClip': 'text',

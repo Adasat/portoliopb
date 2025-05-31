@@ -23,7 +23,7 @@
 <script setup>
 import { computed, unref } from "vue";
 import { useI18n } from "vue-i18n";
-import { i18n } from "../i18n"; // Importamos la instancia de i18n
+import { i18n } from "../../i18n"; // Importamos la instancia de i18n
 
 const { t, locale } = useI18n({ useScope: "global" });
 

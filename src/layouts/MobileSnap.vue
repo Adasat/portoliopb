@@ -23,11 +23,11 @@
 </template>
 
 <script setup>
-import About from '../components/About.vue';
-import Hero from '../components/Hero.vue';
-import ProjectList from '../components/Projects/ProjectList.vue';
-import SocialMediaGroup from '../components/SocialMediaGroup.vue';
-import ToogleLanguage from '../components/ToogleLanguage.vue';
+import SocialMediaGroup from '../VUE/components/SocialMediaGroup.vue';
+import ToogleLanguage from '../VUE/components/ToogleLanguage.vue';
+import About from '../VUE/components/About.vue';
+import Hero from '../VUE/components/Hero.vue';
+import ProjectList from '../VUE/components/Projects/ProjectList.vue';
 
 </script>
 
