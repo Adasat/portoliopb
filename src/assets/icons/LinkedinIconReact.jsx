@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
 
-const LinkedinIconReact = ({ color = "#008844", hoverColor = "#00FF88" }) => {
+const LinkedinIconReact = ({ color = "#d85c5a", hoverColor = "#c1a24e" }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const currentColor = useMemo(() => (isHovered ? hoverColor : color), [isHovered, color, hoverColor]);

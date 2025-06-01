@@ -1,5 +1,9 @@
 {
   "welcome": "Welcome to my portfolio!",
+  "firstName": "Pedro",
+  "lastName": "Bonilla",
+  "aka": "as well known as Pedro Bonilla",
+  "jobTitle": "Full-Stack Developer",
   "description": "ABOUT ME",
   "about": [
     "I’m a <strong>Full-Stack Developer</strong> passionate about building <strong>intuitive, high-performance web applications</strong>. My expertise spans both <strong>frontend</strong> and <strong>backend</strong> development, allowing me to craft solutions that are as <strong>scalable</strong> as they are <strong>user-friendly</strong>.",

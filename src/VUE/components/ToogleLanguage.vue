@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-4 font-quantico">
+  <div class="sm:mb-4 font-quantico">
     <button
       v-if="locale === 'es'"
       @click="changeLang('en')"
@@ -18,7 +18,6 @@
 </template>
 
 <script setup>
-
 import { useI18n } from "vue-i18n";
 // Accedemos a la traducción y al idioma actual
 const { t, locale } = useI18n({ useScope: "global" });

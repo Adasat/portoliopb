@@ -8,30 +8,33 @@ import { SocialLinks } from './Header-Section/SocialLinks'
 
 const HeroReact = () => {
   return (
-    <div className='relative flex w-full flex-col'>
+    <div className='flex w-full flex-col'>
       <Header />
-      <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between min-h-[500px] margin-react sm:relative'>
-        <div className='flex flex-col gap-4 mt-8 '>
+      <div className='relative flex flex-col sm:flex-row sm:items-center sm:justify-between min-h-[500px] pl-8 sm:pl-12 md:pl-16  sm:relative'>
+        <div className='flex flex-col gap-4 mt-8'>
         <motion.h1
-          className="text-start text-6xl md:text-8xl lg:text-[150px] font-bold font-zenDots leading-[0.9]"
+          className="text-start text-6xl md:text-8xl lg:text-[150px] font-bold font-spaceGrotesk text-primaryReact  leading-[0.9]"
           initial={{ opacity: 0, y: 30 }}  
           animate={{ opacity: 1, y: 0 }}    
           transition={{ duration: 1.2, ease: 'easeOut' }}
         >
-          ADASAT <br /> BONILLA
+          PEDRO <br /> BONILLA
         </motion.h1>
         <motion.div
-          className=" font-bold font-zenDots text-end"
+          className=" font-bold font-spaceGrotesk text-end"
           style={{ transformOrigin: 'center' }}
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
           transition={{ duration: 1, ease: 'easeOut' }}
         >
-          <p className='text-lg md:text-xl lg:text-2xl'>aka Pedro Bonilla</p>
         </motion.div>
         </div>
 
-        <div className="mt-20 sm:mt-0 sm:absolute sm:right-4 sm:top-1/2 sm:transform sm:-translate-y-1/2 sm:-rotate-90">
+        <div className="
+           right-0 sm:absolute sm:right-4 
+           mt-20 sm:mt-0 p-8 py-12 
+           sm:top-1/2 sm:transform sm:-translate-y-1/2 sm:-rotate-90  
+          rounded-l-lg md:rounded-none">
           <motion.div
             initial={{ y: -200, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -41,13 +44,13 @@ const HeroReact = () => {
             className="
             text-xl md:text-2xl lg:text-4xl 
             text-center sm:text-start
-            font-bold font-zenDots whitespace-nowrap
+            font-bold font-spaceGrotesk whitespace-nowrap
             ">
               Desarrollador <br className='hidden sm:block'/> Full-Stack
             </p>
           </motion.div>
         </div>
-        <div className='flex justify-end mt-8 sm:hidden'>
+        <div className='flex justify-end mt-8 sm:hidden margin-react'>
           <SocialLinks />
         </div>
       </div>

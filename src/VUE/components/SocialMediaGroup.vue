@@ -1,5 +1,5 @@
 <template>
-   <div class="flex  md:flex-col justify-center items-center gap-4">
+   <div class="flex  sm:flex-col justify-center items-center gap-4">
     <Tooltip text="Github">
       <a href="https://github.com/Adasat" target="_blank" rel="noopener noreferrer" class="cursor-pointer">
         <GithubIcon />

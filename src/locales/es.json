@@ -1,5 +1,9 @@
 {
   "welcome": "Bienvenido",
+  "firstName": "Pedro",
+  "lastName": "Bonilla",
+  "aka": "también conocido como Pedro Bonilla",
+  "jobTitle": "Desarrollador Full-Stack",
   "description": "SOBRE MÍ",
   "about": [
     "Soy un <strong>Desarrollador Full-Stack</strong> apasionado por crear <strong>aplicaciones web intuitivas y de alto rendimiento</strong>. Mi experiencia abarca tanto el <strong>frontend</strong> como el <strong>backend</strong>, lo que me permite diseñar soluciones que sean <strong>escalables</strong> y fáciles de usar.",

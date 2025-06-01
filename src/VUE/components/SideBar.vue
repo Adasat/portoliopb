@@ -1,9 +1,9 @@
 <template>
      <div
-      class="bg-transparent w-fit  flex flex-col items-end text-end justify-between gap-4 py-12 pr-4 fixed h-screen"
+      class="bg-transparent w-fit  flex flex-col items-center text-end justify-between gap-4 py-12 pr-4 fixed h-screen"
       :class="{'border-3 border-primary rounded-md': store.dev}"
     >
-      <img src="/Logo.png" alt="Logo" width="80" height="80" />
+      <img src="/Logo.png" alt="Logo" class="w-14 h-14 sm:w-16 sm:h-16 md:w-24 md:h-24" />
       <PortfolioLinks />
 
       <div>

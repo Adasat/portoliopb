@@ -1,13 +1,13 @@
 <template>
-    <div class="flex flex-col justify-center items-center gap-8 mb-12">
-        <Tooltip text="Estás viendo el portfolio de Vue">
+    <div class="flex sm:flex-col justify-center items-center gap-4 sm:gap-8 sm:mb-12">
+        <Tooltip text="Estás viendo el portfolio de Vue" class="hidden sm:block">
             <a
 
               :class="[
                 currentPath === '/' ? 'drop-shadow-vue' : 'opacity-50 hover:opacity-100'
               ]"
             >
-              <img src="/Vue.-icon.svg.png" alt="Vue Logo" width="50" height="50" />
+              <img src="/Vue.-icon.svg.png" alt="Vue Logo" class="w-6 h-6 sm:w-10 sm:h-10 md:w-10 md:h-10" />
             </a>
         </Tooltip>
   
@@ -18,7 +18,7 @@
             currentPath === '/react' ? 'drop-shadow-react' : 'opacity-50 hover:opacity-100'
           ]"
         >
-          <img src="/React-icon.svg.png" alt="React Logo" width="50" height="50" />
+          <img src="/React-icon.svg.png" alt="React Logo" class="w-6 h-6 sm:w-10 sm:h-10 md:w-10 md:h-10" />
         </a>
       </Tooltip>
     </div>

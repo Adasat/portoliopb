@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function GitHubIconReact({ color = "#008844", hoverColor = "#00FF88" }) {
+export default function GitHubIconReact({ color = "#d85c5a", hoverColor = "#c1a24e" }) {
   const [isHovered, setIsHovered] = useState(false);
 
   const currentColor = isHovered ? hoverColor : color;
