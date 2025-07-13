@@ -107,6 +107,29 @@
       "gradientFrom": "rgb(151, 120, 209)",
       "gradientTo": "rgb(51, 167, 181)"
 
+    },
+    {
+      "title": "Landing Page for Edukami University",
+      "description": "Landing page for Edukami University. It is a platform for online courses.",
+      "technologies": ["HubSpot CMS", "HubL"],
+      "year": 2025,
+      "result": "Provided an accessible platform for university management and promotion.",
+      "link": "https://university.edukami.ai/es",
+      "image": "/projects/Edukami_UniversityImage.png",
+      "gradientFrom": "rgb(151, 120, 209)",
+      "gradientTo": "rgb(51, 167, 181)"
+    },
+    {
+      "title": "Plugin for a GTIN scanning ERP",
+      "description": "Plugin for a GTIN scanning ERP. Allows users to scan GTIN labels and obtain detailed information about the product while searching for the closest match in the database.",
+      "technologies": ["PHP", "Bootstrap", "jQuery", "MySQL", "HTML", "CSS"],
+      "year": 2025,
+      "result": "Faster and more efficient product scanning and search process.",
+      "link": "",
+      "image": "/projects/expresafestImage.png",
+      "gradientFrom": "",
+      "gradientTo": ""
+
     }
   ]
 }

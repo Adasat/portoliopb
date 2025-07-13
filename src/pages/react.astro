@@ -2,9 +2,11 @@
 import Layout from "../layouts/Layout.astro";
 import HeroReact from "../REACT/components/Hero-react.jsx";
 import AboutMeReact from "../REACT/components/AboutMe-react.jsx";
+import { ProjectsList } from "../REACT/components/Projects/ProjectsList";
 ---
 
 <Layout class=" bg-color-background-react">
     <HeroReact client:load />
     <AboutMeReact client:load />
+   <!--  <ProjectsList client:load /> -->
 </Layout>

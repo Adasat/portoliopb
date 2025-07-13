@@ -15,9 +15,8 @@
   
   const { t, locale } = useI18n({ useScope: "global" });
   
-  // Asegurar que i18n solo se usa en el cliente para evitar errores en SSR
   const projects = computed(() => {
-    if (!i18n) return []; // Evita errores en SSR
+    if (!i18n) return []; 
     const messages = unref(i18n.global.messages);
     return messages[locale.value]?.projects || [];
   });
