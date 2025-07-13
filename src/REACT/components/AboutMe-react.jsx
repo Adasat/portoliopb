@@ -56,7 +56,7 @@ const AboutMeReact = () => {
         transition={{ duration: 0.6, delay: 0.3 }}
       >
         <img
-          src="/public/gemini-section.jpg"
+          src="./gemini-section.jpg"
           alt="Imagen sobre mí"
           className='w-full h-[300px] md:h-full object-cover rounded-sm'
         />
