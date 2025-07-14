@@ -4,12 +4,18 @@ import HeroReact from "../REACT/components/Hero-react.jsx";
 import AboutMeReact from "../REACT/components/AboutMe-react.jsx";
 import { ProjectsList } from "../REACT/components/Projects/ProjectsList";
 import { getI18n } from "../utils/i18n";
-const { lang } = Astro.params;           
-const { t } = await getI18n(lang);
+
+const locale = Astro.locals.locale ?? "es";
+
+console.log(locale, "aqui");
+
+const { messages } = await getI18n(locale);
 ---
 
 <Layout class=" bg-color-background-react">
-    <HeroReact client:load />
-    <AboutMeReact client:load />
+    <HeroReact client:load   initialLocale={locale}
+    initialMessages={messages}/>
+    <AboutMeReact client:load initialLocale={locale}
+    initialMessages={messages}/>
    <!--  <ProjectsList client:load /> -->
 </Layout>

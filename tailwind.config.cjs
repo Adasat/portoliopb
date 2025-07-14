@@ -32,6 +32,13 @@ module.exports = {
         accentReact: 'var(--color-accent-react)',
         
       },
+      dropShadow: {
+        /* nombre       offset-x offset-y blur   color       */
+        'flag-red':    '0 0 16px #BA1A1A',
+        'flag-blue':  '0 0 16px #3B83BD',
+        'flag-shadow': '0 0 16px #000000',
+
+      },
       screens: {
         sm: '640px',
         'ssm:': '768px',

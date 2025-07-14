@@ -3,9 +3,8 @@
 import React from 'react'
 import { FrameworkLinks } from './Framework-links'
 import { SocialLinks } from './SocialLinks'
+import { ToggleLanguage } from './ToogleLanguage'
 export const Header = () => {
-
-
   
   return (
     <div className="
@@ -16,13 +15,15 @@ export const Header = () => {
 
       <div className="
         flex  justify-between items-center
-        gap-10 sm:gap-16 md:gap-20 
+        gap-8 sm:gap-12 md:gap-14
         bg-black text-color-background-react 
         px-8 sm:px-12 md:px-16 py-8"
       >
         <FrameworkLinks />
+        <ToggleLanguage />
         <div className='hidden sm:block'>
           <SocialLinks />
+          
         </div>
       </div>
     </div>

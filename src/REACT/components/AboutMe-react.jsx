@@ -1,11 +1,22 @@
 import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { useI18n } from '../hooks/useI18N'
+import useI18n from '../../hooks/useI18N'
+import { initI18n } from '../../i18n'
 
-const AboutMeReact = () => {
+
+const AboutMeReact = ({ initialLocale, initialMessages }) => {
   const [isMobile, setIsMobile] = useState(false)
   const [isExpanded, setIsExpanded] = useState(false)
+  const [ready, setReady] = useState(false);
+
   const { t } = useI18n();
+
+  useEffect(() => {
+    initI18n(initialLocale, initialMessages).then(() => setReady(true));
+  }, [initialLocale, initialMessages]);
+
+  /* 3️⃣  Hasta que esté listo, renderiza un placeholder ligero */
+
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768)
@@ -14,11 +25,13 @@ const AboutMeReact = () => {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  const fullText = `Soy un desarrollador Full-Stack apasionado por construir aplicaciones web intuitivas y de alto rendimiento. Mi experiencia abarca tanto el frontend como el backend, lo que me permite crear soluciones escalables y centradas en el usuario. Trabajo con bases de datos relacionales como MySQL y no relacionales como MongoDB, diseñando estructuras eficientes y asegurando un flujo de datos fluido. En el frontend, desarrollo principalmente con React y Vue, utilizando frameworks modernos para crear interfaces dinámicas y mantenibles. Aunque mi portfolio personal está hecho con Astro, siempre estoy explorando nuevas tecnologías para optimizar el rendimiento y mejorar mi flujo de trabajo. He desarrollado aplicaciones web para estaciones de carga de vehículos eléctricos, mapas interactivos con geolocalización y plataformas de gestión de eventos, además de liderar rediseños y mantenimiento de sitios educativos y crear soluciones personalizadas en WordPress para sectores como el farmacéutico y el artístico. Cada proyecto ha profundizado mi comprensión sobre usabilidad, rendimiento y cómo conectar la tecnología con un impacto real. Aunque no me dedico exclusivamente al diseño UX/UI, valoro profundamente la usabilidad, la accesibilidad y las interacciones cuidadosas. Fuera del código, me apasiona el fútbol, los videojuegos, los juegos de mesa y la lectura. Me motiva resolver problemas, ya sea depurando una línea compleja de código o buscando la mejor estrategia en una partida.`
+  if (!ready) {
+    return <div style={{ height: "500px" }} />;  // o un spinner
+  }
   
   const visibleText = isMobile && !isExpanded
-    ? fullText.slice(0, 400) + '...'
-    : fullText
+    ? t('about', { returnObjects: true }).slice(0, 2) + '...'
+    : t('about', { returnObjects: true })
 
   return (
     <motion.div
@@ -33,19 +46,17 @@ const AboutMeReact = () => {
     >
       <div className='flex flex-col gap-4 w-full md:w-1/2'>
         <h3 className='text-4xl md:text-6xl font-bold font-spaceGrotesk text-white'>
-          Sobre mí
+          {t('description')}
         </h3>
 
-        <p className='text-lg font-ibmPlexSans font-light'>
-          {visibleText}
-        </p>
+        <p className='text-lg font-ibmPlexSans font-light' dangerouslySetInnerHTML={{ __html: visibleText }} />
 
         {isMobile && (
           <button
             onClick={() => setIsExpanded(prev => !prev)}
             className='text-red-500 mt-2 font-bold flex items-center gap-1 animate-bounce'
           >
-            {isExpanded ? 'Leer menos' : 'Leer más'}
+            {isExpanded ? t('readLess') : t('readMore')}
             <span className='text-xl'>{isExpanded ? '↥' : '↧'}</span>
           </button>
         )}

@@ -1,8 +1,7 @@
-// src/hooks/useI18n.js
 import { useSyncExternalStore, useCallback } from "react";
-import i18n from "../../i18n";
+import i18n from "../i18n";
 
-export function useI18n() {
+export default function useI18n() {
   const getSnapshot = () => i18n.language;
 
   const subscribe = (cb) => {

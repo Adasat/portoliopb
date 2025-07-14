@@ -1,12 +1,25 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Header } from './Header-Section/Header'
 import { motion } from 'framer-motion'
 import '../../styles/global.css'
 import { SocialLinks } from './Header-Section/SocialLinks'
+import useI18n from '../../hooks/useI18n'
+import { initI18n } from '../../i18n'
 
+const HeroReact = ({ initialLocale, initialMessages }) => {
+  const [ready, setReady] = useState(false);
 
+  const { t } = useI18n();
 
-const HeroReact = () => {
+  useEffect(() => {
+    initI18n(initialLocale, initialMessages).then(() => setReady(true));
+  }, [initialLocale, initialMessages]);
+
+  /* 3️⃣  Hasta que esté listo, renderiza un placeholder ligero */
+  if (!ready) {
+    return <div style={{ height: "500px" }} />;  // o un spinner
+  }
+
   return (
     <div className='flex w-full flex-col'>
       <Header />
@@ -18,7 +31,7 @@ const HeroReact = () => {
           animate={{ opacity: 1, y: 0 }}    
           transition={{ duration: 1.2, ease: 'easeOut' }}
         >
-          PEDRO <br /> BONILLA
+          {t('firstName')} <br /> {t('lastName')}
         </motion.h1>
         <motion.div
           className=" font-bold font-spaceGrotesk text-end"
@@ -46,7 +59,7 @@ const HeroReact = () => {
             text-center sm:text-start
             font-bold font-spaceGrotesk whitespace-nowrap
             ">
-              Desarrollador <br className='hidden sm:block'/> Full-Stack
+              {t('jobTitle')}
             </p>
           </motion.div>
         </div>
