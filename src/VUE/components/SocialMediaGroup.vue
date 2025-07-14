@@ -17,6 +17,8 @@
   import GithubIcon from '../../assets/icons/GithubIcon.vue';
   import LinkedinIcon from '../../assets/icons/LinkedinIcon.vue';
   import Tooltip from './Tooltip.vue';
+
+  const { t } = defineProps({ t: Function });
   </script>
   
   <style scoped>

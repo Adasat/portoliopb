@@ -1,20 +1,31 @@
 ---
 import "../styles/global.css";
 
-
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 import BigDevices from "../layouts/BigDevices.vue";
 import MobileSnap from "../layouts/MobileSnap.vue";
+import { getI18n } from "../utils/i18n";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const locale = Astro.locals.locale ?? "es";
+
+console.log(locale, "aqui");
+
+const { messages } = await getI18n(locale);
 ---
 
 <Layout>
-	<!-- Mostrar solo en pantallas grandes -->
-	<BigDevices client:only="vue"/>
+  <!-- Mostrar solo en pantallas grandes -->
+  <BigDevices
+    client:only="vue"
+    initialLocale={locale}
+    initialMessages={messages}
+  />
 
-	
-	<!-- Mostrar solo en móviles -->
-	<MobileSnap class="sm:hidden" client:only="vue"/>
+  <!-- Mostrar solo en móviles -->
+  <MobileSnap
+    class="sm:hidden"
+    client:only="vue"
+    initialLocale={locale}
+    initialMessages={messages}
+  />
 </Layout>

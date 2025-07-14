@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
+import { useI18n } from '../hooks/useI18N'
 
 const AboutMeReact = () => {
   const [isMobile, setIsMobile] = useState(false)
   const [isExpanded, setIsExpanded] = useState(false)
+  const { t } = useI18n();
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768)

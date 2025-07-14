@@ -21,17 +21,10 @@
 </template>
 
 <script setup>
-import { computed, unref } from "vue";
-import { useI18n } from "vue-i18n";
-import { i18n } from "../../i18n"; // Importamos la instancia de i18n
+import { inject, computed } from 'vue';
 
-const { t, locale } = useI18n({ useScope: "global" });
+const t = inject('t');           // viene de BigDevices.vue
+if (!t) throw new Error('No se encontró el provider de traducción');
 
-// Acceder correctamente al array desde `i18n.global.messages`
-const about = computed(() => {
-  if (!i18n) return []; // Evita errores en SSR
-  const messages = unref(i18n.global.messages); // 🔥 Accedemos correctamente al objeto reactivo
-
-  return messages[locale.value]?.about || []; // Extraemos el array correctamente
-});
+const about = computed(() => t('about', {returnObjects: true}));   // asume que "about" en JSON es un array
 </script>

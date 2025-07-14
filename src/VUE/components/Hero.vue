@@ -10,9 +10,8 @@
 <script setup>
 import { useWebStore } from '../stores/web';
 const store = useWebStore()
+const { t } = defineProps({ t: Function });   // destructuración
 
-import { useI18n } from 'vue-i18n';
-const { t } = useI18n();
 </script>
 
 <style scoped>

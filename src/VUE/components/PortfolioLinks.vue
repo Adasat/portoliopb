@@ -28,6 +28,7 @@
   import { ref, onMounted } from 'vue';
   import Tooltip from './Tooltip.vue';
   
+  const { t } = defineProps({ t: Function });
   const currentPath = ref('/');
   
   onMounted(() => {

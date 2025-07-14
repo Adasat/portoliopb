@@ -18,13 +18,15 @@
 </template>
 
 <script setup>
-import { useI18n } from "vue-i18n";
-// Accedemos a la traducción y al idioma actual
-const { t, locale } = useI18n({ useScope: "global" });
+import { loadLocale } from '../../i18n';
+import { useI18n } from '../../composables/useI18n';
+const { locale } = useI18n();
 
-const changeLang = (lang) => {
-  locale.value = lang;
-};
+function changeLang(lang) {
+  if (lang !== locale.value) {
+    loadLocale(lang);     
+  }
+}
 </script>
 
 <style lang="scss" scoped></style>
