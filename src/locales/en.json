@@ -14,6 +14,8 @@
   ],
   "readMore": "Read More",
   "readLess": "Read Less",
+  "results": "Results",
+  "seeLink": "See Project",
   "projectsTitle": "PROJECTS",
   "projects": [
     {
@@ -29,7 +31,7 @@
         "Nodemailer"
       ],
       "year": 2024,
-      "result": "Enabled efficient EV charging with digital payments and consumption tracking.",
+      "result": "Automated the entire ultra-fast charging cycle by integrating Stripe gateway and WebSockets in real time, avoiding customer waiting times. The OCPP connection allowed the user to interact directly with the charging station, giving him the real time consumption of his vehicle. The environmental impact was recorded at each charging session, allowing the user to see the impact of their electricity consumption.",
       "link": "https://www.electrotaro.com/",
       "image": "/projects/taroImage.png",
       "gradientFrom": "#00D29E",
@@ -49,7 +51,7 @@
         "OpenStreetMap"
       ],
       "year": 2024,
-      "result": "Increased visibility of female Canary Islands talent in science and technology.",
+      "result": "Visualised more than 300 STEAM profiles on an interactive map, with filters by discipline and geolocation. It succeeded in connecting professionals in mentoring processes. The local press echoed the project.",
       "link": "https://talentmap.wisecanarias.com/",
       "image": "/projects/talentImage.png",
      "gradientFrom": "#881bf5",
@@ -67,7 +69,7 @@
         "Geolocation"
       ],
       "year": "2024-2025",
-      "result": "Simplified event promotion and improved connections between organizers and attendees.",
+      "result": "It centralised the supply of events in the Canary Islands: it simplified the promotion of events and improved the connections between organisers and attendees.",
       "link": "https://evente.netlify.app/",
       "image": "/projects/eventeImage.png",
       "gradientFrom": "#f15a24",
@@ -79,7 +81,7 @@
       "description": "Redesign, development, and integration of the Reboot Academy website, aligned with the UX/UI team’s design vision.",
       "technologies": ["NextJS", "TailwindCSS"],
       "year": 2025,
-      "result": "Enhanced user experience and visual consistency of the platform.",
+      "result": "Reduced load times from 3.8 s ▶ 1.2 s (Lighthouse 99/100) with NextJS ISR and Tailwind. Implemented WCAG 2.2 accessible components, improving accessibility rating from 71 ▶ 95. 22% increase in organic leads in the first quarter post-release. In addition to a smooth implementation of the internationalisation of the website with i18n.",
       "link": "https://reboot.academy/",
       "image": "/projects/rebootImage.png",
       "gradientFrom": "#36E0D6",
@@ -91,7 +93,7 @@
       "description": "Digitalization project for a prestigious pharmaceutical distributor in the Canary Islands. The goal was to provide an easy-to-maintain tool without requiring programming knowledge.",
       "technologies": ["WordPress"],
       "year": 2025,
-      "result": "Enabled the company to expand its digital presence with an accessible solution.",
+      "result": "It introduced a company, with more than 35 years of experience, to the digital world with a website that is easy to manage and maintain, without the need for prior technical knowledge.",
       "link": "https://dimefarma.org/",
       "image": "/projects/dimefarmaImage.png",
       "gradientFrom": "#3AA74E",
@@ -103,7 +105,7 @@
       "description": "A short film festival focused on raising awareness of social issues. Needed a user-friendly and attractive website for festival organization.",
       "technologies": ["WordPress"],
       "year": 2025,
-      "result": "Provided an accessible platform for festival management and promotion.",
+      "result": "Created a user-friendly and visually appealing website for the festival, facilitating the organization and promotion of the event.",
       "link": "https://expresafest.com/",
       "image": "/projects/expresafestImage.png",
       "gradientFrom": "rgb(151, 120, 209)",
@@ -115,7 +117,7 @@
       "description": "Landing page for Edukami University. It is a platform for online courses.",
       "technologies": ["HubSpot CMS", "HubL"],
       "year": 2025,
-      "result": "Provided an accessible platform for university management and promotion.",
+      "result": "A modern and responsive landing page that provides a clear overview of the courses offered by Edukami University, enhancing user engagement and course discovery.",
       "link": "https://university.edukami.ai/es",
       "image": "/projects/Edukami_UniversityImage.png",
       "gradientFrom": "rgb(151, 120, 209)",
@@ -126,11 +128,11 @@
       "description": "Plugin for a GTIN scanning ERP. Allows users to scan GTIN labels and obtain detailed information about the product while searching for the closest match in the database.",
       "technologies": ["PHP", "Bootstrap", "jQuery", "MySQL", "HTML", "CSS"],
       "year": 2025,
-      "result": "Faster and more efficient product scanning and search process.",
+      "result": "Developed a plugin that enables users to scan GTIN labels and retrieve detailed product information, enhancing the efficiency of inventory management and product identification.",
       "link": "",
-      "image": "/projects/expresafestImage.png",
-      "gradientFrom": "",
-      "gradientTo": ""
+      "image": "/projects/Plugin-OCR.png",
+      "gradientFrom": "#008F39",
+      "gradientTo": "#0000FF"
 
     }
   ]

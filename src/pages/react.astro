@@ -17,5 +17,6 @@ const { messages } = await getI18n(locale);
     initialMessages={messages}/>
     <AboutMeReact client:load initialLocale={locale}
     initialMessages={messages}/>
-   <!--  <ProjectsList client:load /> -->
+    <ProjectsList client:load initialLocale={locale}
+    initialMessages={messages}/>
 </Layout>

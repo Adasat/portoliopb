@@ -14,6 +14,8 @@
   ],
   "readMore": "Leer más",
   "readLess": "Leer menos",
+  "results": "Resultados",
+  "seeLink": "Ver proyecto",
   "projectsTitle": "PROYECTOS",
   "projects": [
     {
@@ -29,7 +31,7 @@
         "Nodemailer"
       ],
       "year": 2024,
-      "result": "Facilitó la carga eficiente de vehículos eléctricos con pago digital y registro de consumo.",
+      "result": "Automatizó el ciclo completo de carga ultrarrápida al integrar pasarela Stripe y WebSockets en tiempo real, evitando los tiempos de espera del cliente. La conexión OCPP permitió que el usuarion interactuara directamente con la estación de carga, dandole el tiempo real de consumo de su vehículo. El impacto medioambiental se registró en cada sesión de carga, permitiendo al usuario ver el impacto de su consumo eléctrico.",
       "link": "https://www.electrotaro.com/",
       "image": "/projects/taroImage.png",
       "gradientFrom": "#00D29E",
@@ -49,7 +51,7 @@
         "OpenStreetMap"
       ],
       "year": 2024,
-      "result": "Aumentó la visibilidad del talento femenino canario en ciencia y tecnología.",
+      "result": "Visualizó más de 300 perfiles STEAM en un mapa interactivo, con filtros por disciplina y geolocalización. Logró conectar a las profesionales en procesos de mentoría. La prensa local se hizo eco del proyecto.",
       "link": "https://talentmap.wisecanarias.com/",
       "image": "/projects/talentImage.png",
       "gradientFrom": "#881bf5",
@@ -67,7 +69,7 @@
         "Geolocalización"
       ],
       "year": "2024-2025",
-      "result": "Facilitó la promoción de eventos y la conexión entre organizadores y asistentes.",
+      "result": "Centralizó la oferta de eventos canarios: simplificó la promoción de eventos y mejoró las conexiones entre organizadores y asistentes.", 
       "link": "https://evente.netlify.app/",
       "image": "/projects/eventeImage.png",
       "gradientFrom": "#f15a24",
@@ -79,7 +81,7 @@
       "description": "Actualización, programación y rediseño del sitio web de Reboot Academy, alineado con el diseño armónico del equipo de UX/UI.",
       "technologies": ["NextJS", "TailwindCSS"],
       "year": 2025,
-      "result": "Mejoró la experiencia de usuario y la coherencia visual de la plataforma.",
+      "result": "Redujo los tiempos de carga de 3,8 s ▶ 1,2 s (Lighthouse 99/100) con NextJS ISR y Tailwind. Implementación de componentes accesibles WCAG 2.2, mejorando el índice de accesibilidad de 71 ▶ 95. Incremento del 22 % en leads orgánicos el primer trimestre post‑release. Además de una implementación de la internacionalización de la web fluida con i18n.",
       "link": "https://reboot.academy/",
       "image": "/projects/rebootImage.png",
       "gradientFrom": "#36E0D6",
@@ -91,7 +93,7 @@
       "description": "Proyecto de digitalización para una prestigiosa distribuidora de fármacos en las Islas Canarias. Buscaban una herramienta fácil de mantener sin necesidad de conocimientos previos de programación.",
       "technologies": ["WordPress"],
       "year": 2025,
-      "result": "Permitió a la empresa expandir su presencia digital con una solución accesible.",
+      "result": "Introdujo en el mundo digital a una compañía, con más de 35 años de experiencia, con una web fácil de gestionar y mantener, sin necesidad de conocimientos técnicos previos.",
       "link": "https://dimefarma.org/",
       "image": "/projects/dimefarmaImage.png",
       "gradientFrom": "#3AA74E",
@@ -103,7 +105,7 @@
       "description": "Festival de cortometrajes que busca visibilizar y concienciar sobre temas sociales. Requería una web fácil de gestionar y atractiva para los festivales organizados.",
       "technologies": ["WordPress"],
       "year": 2025,
-      "result": "Proporcionó una plataforma accesible para la gestión y promoción del festival.",
+      "result": "Proporcionó una plataforma accesible para la gestión y promoción del festival. Permitiendo a los participantes subir sus cortometrajes y a los organizadores gestionar el festival de manera eficiente.", 
       "link": "https://expresafest.com/",
       "image": "/projects/expresafestImage.png",
       "gradientFrom": "rgb(151, 120, 209)",
@@ -111,11 +113,11 @@
 
     },
     {
-      "title": "Landing Page para la Universidad Edukami",
-      "description": "Landing page para la Universidad Edukami. Es una plataforma para cursos online.",
+      "title": "Landing Page para Edukami University",
+      "description": "Landing page de Edukami University. Es una plataforma para cursos online, con un aprendizaje adaptado a la persona.",
       "technologies": ["HubSpot CMS", "HubL"],
       "year": 2025,
-      "result": "Proporcionó una plataforma accesible para la gestión y promoción de la universidad.",
+      "result": "Una web de llegada que permitía la solicitud de información o suscripción a cursos, generando a su vez leads, traceables en CRM de HubSpot.",
       "link": "https://university.edukami.ai/es/",
       "image": "/projects/Edukami_UniversityImage.png",
       "gradientFrom": "rgb(151, 120, 209)",
@@ -123,14 +125,14 @@
     },
     {
       "title": "Plugin para un ERP de escaneo de etiquetas GTIN",
-      "description": "Plugin para un ERP de escaneo de etiquetas GTIN. Permite a los usuarios escanear etiquetas GTIN y obtener información detallada sobre el producto y a la misma vez, buscar la coincidencia más cercana en la Base de Datos.",
+      "description": "Plugin para un ERP de escaneo de etiquetas GTIN. Permite a los usuarios escanear etiquetas GTIN y obtener información detallada sobre el producto, mediante OCR, y a la misma vez, buscar la coincidencia más cercana en la Base de Datos.",
       "technologies": ["PHP", "Bootstrap", "jQuery", "MySQL", "HTML", "CSS"],
       "year": 2025,
-      "result": "Proceso de escaneo y búsqueda de productos más rápido y eficiente.",
+      "result": "Disminuyó el proceso de generación de etiquetas de ser manual a automático, permitiendo una búsqueda más rápida y eficiente de productos. Generando una optimización y reducción de errores en el proceso de escaneo y búsqueda de productos. Productividad del siglo XXI.",
       "link": "",
-      "image": "/projects/expresafestImage.png",
-      "gradientFrom": "",
-      "gradientTo": ""
+      "image": "/projects/Plugin-OCR.png",
+      "gradientFrom": "#008F39",
+      "gradientTo": "#0000FF"
 
     }
   ]
