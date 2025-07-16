@@ -17,7 +17,7 @@ const HeroReact = ({ initialLocale, initialMessages }) => {
 
   /* 3️⃣  Hasta que esté listo, renderiza un placeholder ligero */
   if (!ready) {
-    return <div style={{ height: "500px" }} />;  // o un spinner
+    return <div style={{ width: "100%" }} />;  // o un spinner
   }
 
   return (
