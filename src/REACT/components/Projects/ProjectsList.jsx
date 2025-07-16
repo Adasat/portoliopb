@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import useI18n from "../../../hooks/useI18N";
+import useI18n from "../../../hooks/useI18n";
 import { initI18n } from "../../../i18n";
 import { ProjectCard } from "./ProjectCard";
 

@@ -1,5 +1,5 @@
 import { loadLocale } from "../../../i18n";     // ⬅️  usa la función global
-import useI18n from "../../../hooks/useI18N";
+import useI18n from "../../../hooks/useI18n";
 
 export const ToggleLanguage = () => {
   const { locale } = useI18n();   
