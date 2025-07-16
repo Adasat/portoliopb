@@ -18,7 +18,7 @@ const HeroReact = ({ initialLocale, initialMessages }) => {
   /* 3️⃣  Hasta que esté listo, renderiza un placeholder ligero */
   if (!ready) {
     return (
-      <div className="flex w-full flex-col animate-pulse min-h-[500px] p-8">
+      <div className="flex w-full flex-col animate-pulse min-h-[500px] p-8  border-2 border-red-500">
         <div className="h-12 bg-gray-200 rounded w-1/3 mb-4" />
         <div className="h-24 bg-gray-200 rounded w-2/3 mb-8" />
         <div className="h-8 bg-gray-200 rounded w-1/4 mb-4" />
