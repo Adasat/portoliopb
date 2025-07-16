@@ -23,18 +23,21 @@ export const ProjectCard = ({ project, moreText }) => {
           {project.description}
         </p>
       </div>
-      <details  className="group mt-4">
-        <summary  className="
+      <details className="group mt-4">
+        <summary
+          className="
           flex items-center gap-2 cursor-pointer
           text-lg font-ibmPlexSans font-bold
           marker:hidden select-none
-        ">
+        "
+        >
           {moreText.results}{" "}
-        <SummaryIcons open="w-6 h-6 transition-transform
+          <SummaryIcons
+            open="w-6 h-6 transition-transform
             group-open:hidden text-[var(--c2)]"
-          close="w-6 h-6 transition-transform
+            close="w-6 h-6 transition-transform
             group-open:block hidden text-black"
-        />
+          />
         </summary>
         <blockquote className=" font-ibmPlexSans italic text-balance font-light mt-2">
           {project.result}
@@ -51,15 +54,17 @@ export const ProjectCard = ({ project, moreText }) => {
             </span>
           ))}
         </div>
-        <a
-          href={project.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="pr-4 tooltip mt-6 md:mt-0"
-        >
-          <LinkIcon extraStyles="w-8 h-8 text-background hover:text-white hover:scale-105 transition-colors duration-300" />
-          <span className="tooltiptext ">{moreText.seeLink}</span>
-        </a>
+        {project.link && (
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="pr-4 tooltip mt-6 md:mt-0"
+          >
+            <LinkIcon extraStyles="w-8 h-8 text-background hover:text-white hover:scale-105 transition-colors duration-300" />
+            <span className="tooltiptext ">{moreText.seeLink}</span>
+          </a>
+        )}
       </section>
     </div>
   );

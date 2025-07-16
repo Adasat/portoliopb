@@ -7,16 +7,15 @@ import { getI18n } from "../utils/i18n";
 
 const locale = Astro.locals.locale ?? "es";
 
-console.log(locale, "aqui");
 
 const { messages } = await getI18n(locale);
 ---
 
-<Layout class=" bg-color-background-react">
-    <HeroReact client:load   initialLocale={locale}
+<Layout class=" bg-color-background-react w-full">
+    <HeroReact client:visible   initialLocale={locale}
     initialMessages={messages}/>
-    <AboutMeReact client:load initialLocale={locale}
+    <AboutMeReact client:visible initialLocale={locale}
     initialMessages={messages}/>
-    <ProjectsList client:load initialLocale={locale}
+    <ProjectsList client:visible initialLocale={locale}
     initialMessages={messages}/>
 </Layout>
