@@ -58,7 +58,7 @@ const AboutMeReact = ({ initialLocale, initialMessages }) => {
       </div>
 
       <motion.div
-        className='w-full md:w-1/2'
+        className='flex items-center w-full md:w-1/2'
         initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.3 }}
@@ -66,7 +66,7 @@ const AboutMeReact = ({ initialLocale, initialMessages }) => {
         <img
           src="/gemini-section.jpg"
           alt="Imagen sobre mí"
-          className='w-full h-[300px] md:h-full md:max-h-[500px] object-cover rounded-sm'
+          className='w-full h-[300px] sm:h-full 2xl:max-h-[500px] object-cover rounded-sm'
         />
       </motion.div>
     </motion.div>
