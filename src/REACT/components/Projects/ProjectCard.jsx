@@ -1,7 +1,7 @@
 import React from "react";
 import { getSpanClasses } from "../../../utils/getSpanClasses";
 import { LinkIcon } from "../../../assets/icons/LinkIcon";
-import { SummaryIcons } from "../../../assets/icons/summaryIcons";
+import { SummaryIcons } from "../../../assets/icons/SummaryIcons";
 
 export const ProjectCard = ({ project, moreText }) => {
   return (
