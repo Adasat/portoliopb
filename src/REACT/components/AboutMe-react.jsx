@@ -15,9 +15,6 @@ const AboutMeReact = ({ initialLocale, initialMessages }) => {
     initI18n(initialLocale, initialMessages).then(() => setReady(true));
   }, [initialLocale, initialMessages]);
 
-  /* 3️⃣  Hasta que esté listo, renderiza un placeholder ligero */
-
-
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768)
     handleResize() // check on mount
@@ -25,9 +22,7 @@ const AboutMeReact = ({ initialLocale, initialMessages }) => {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  if (!ready) {
-    return <div style={{ height: "500px" }} />;  // o un spinner
-  }
+
   
   const visibleText = isMobile && !isExpanded
     ? t('about', { returnObjects: true }).slice(0, 2) + '...'
@@ -36,7 +31,7 @@ const AboutMeReact = ({ initialLocale, initialMessages }) => {
   return (
     <motion.div
       className='
-        bg-black text-backgroundReact 
+        bg-black w-full text-backgroundReact 
         margin-react py-12 mt-8 md:mt-16
         flex flex-col md:flex-row gap-8 md:gap-12
       '
